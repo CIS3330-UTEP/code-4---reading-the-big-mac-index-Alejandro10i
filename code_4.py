@@ -34,9 +34,13 @@ def get_the_most_expensive_big_mac_price_by_year(year):
 
 if __name__ == "__main__":
     year = '2000'
-    country_code = 'BRA'
+    country_code = 'bra'
     
-    print("Average Big Mac price by year and country:", get_big_mac_price_by_year(year, country_code))
-    print("Average Big Mac price by country:", get_big_mac_by_country(country_code))
-    print("Cheapest Big Mac price by year:", get_the_cheapest_big_mac_price_by_year(year))
-    print("Most Expensive Big Mac price by year:", get_the_most_expensive_big_mac_price_by_year(year))
+
+
+from code_4 import get_big_mac_price_by_year
+from code_4 import get_big_mac_by_country
+from code_4 import get_the_cheapest_big_mac_price_by_year
+from code_4 import get_the_most_expensive_big_mac_price_by_year
+
+
